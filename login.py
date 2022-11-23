@@ -7,7 +7,7 @@ def submitact():
     user = Username.get()
     passw = password.get()
   
-    print(f"The name entered by you is {user} {passw}")
+    print(f"Girilen isim {user} {passw}")
   
     logintodb(user, passw)
 
